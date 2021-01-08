@@ -23,3 +23,39 @@ html {
     font-family: 'Patrick Hand', cursive;
 }
 
+
+.roundA {
+    position: absolute;
+    top: -50px;
+    right: -70px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    opacity: 0.3;
+    background-color: #e66767;
+    z-index: -1;
+}
+
+.roundB {
+    position: absolute;
+    bottom: -50px;
+    left: -70px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    opacity: 0.3;
+    background-color: #64cddb;
+    z-index: -1;
+}
+
+.roundC {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    height: 75px;
+    transform: rotateZ(60);
+    width: 75px;
+    opacity: 0.3;
+    background-color: #f7d794;
+    z-index: -1;
+}
