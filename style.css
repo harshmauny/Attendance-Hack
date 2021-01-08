@@ -18,17 +18,8 @@ html {
 }
 
 .header__text {
-    
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Patrick Hand', cursive;
 }
 
-.roundA {
-   
-}
-
-.roundB {
-   
-}
-
-.roundC {
-   
-}
