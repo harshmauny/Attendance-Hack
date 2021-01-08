@@ -8,3 +8,27 @@
 html {
     overflow: hidden;
 }
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header__text {
+    
+}
+
+.roundA {
+   
+}
+
+.roundB {
+   
+}
+
+.roundC {
+   
+}
