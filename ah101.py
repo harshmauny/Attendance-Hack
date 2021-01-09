@@ -39,8 +39,8 @@ chrome_path = s2r(path)
 
 ## FIELDS TO EDIT ##
 
-YOUR_EMAIL_ADDRESS = "codethec@gmail.com" # Replace with your EMAIL ADRESS
-YOUR_PASSWORD = "hemapanchal" # Replace with your PASSWORD
+YOUR_EMAIL_ADDRESS = "devarsh@gmail.com" # Replace with your EMAIL ADRESS
+YOUR_PASSWORD = "YOUR PASSWORD" # Replace with your PASSWORD
 
 ####################
 
