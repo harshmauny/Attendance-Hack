@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <!-- <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
     <title>The Python Week</title>
     <link rel="stylesheet" href="assets/bulma.min.css">
     <link rel="stylesheet" href="assets/style.css">
-  </head>
-  <body>
-     <!-- Background Shapes -->
-     <div class="roundA"></div>
-     <div class="roundB"></div>
-     <div class="roundC"></div>
-     <!-- Website content -->
-     <div class="main-box">
-         <div class="inner">
-             <div class="header">
-                 <h1 class="header__text">Attendance Hack 101</h1>
-             </div>
-             <div class="field">
-                 <div class="control">
-                     <input class="input is-primary" type="text" placeholder="Enter meeting code">
-                 </div>
-             </div>
-             <div class="buttons">
-                 <button class="button is-primary">JOIN THE MEETING!</button>
-             </div>
-         </div>
-     </div>
-     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+</head>
+
+<body>
+    <!-- Background Shapes -->
+    <div class="roundA"></div>
+    <div class="roundB"></div>
+    <div class="roundC"></div>
+    <!-- Website content -->
+    <div class="main-box">
+        <div class="inner">
+            <div class="header">
+                <h1 class="header__text">Attendance Hack 101</h1>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <input id="google-meet-code" class="input is-primary" type="text" placeholder="Enter meeting code">
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="button is-primary" onclick="joinMeet()">JOIN THE MEETING!</button>
+            </div>
+        </div>
+    </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
 
     <!-- You can also require other files to run in this process -->
+    <script src="./index.js"></script>
     <script src="./renderer.js"></script>
-  </body>
+</body>
+
 </html>
