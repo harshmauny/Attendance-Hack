@@ -12,6 +12,16 @@ function joinMeet() {
     var pyshell = new PythonShell('ah101.py', options);
 
     pyshell.on('message', function(message) {
+
+        if (message == "attendance") {
+            Notification.requestPermission().then(function(result) {
+                var myNotification = new Notification('Attendance Alert', {
+                    body: "Attendance is been taken !!"
+                });
+            })
+        }
+
+
         console.log(message);
     })
 }
