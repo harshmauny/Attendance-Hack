@@ -40,7 +40,7 @@ chrome_path = s2r(path)
 ## FIELDS TO EDIT ##
 
 YOUR_EMAIL_ADDRESS = "devarsh@gmail.com" # Replace with your EMAIL ADRESS
-YOUR_PASSWORD = "YOUR PASSWORD" # Replace with your PASSWORD
+YOUR_PASSWORD = "PASSWORD" # Replace with your PASSWORD
 
 ####################
 
@@ -55,7 +55,7 @@ time.sleep(5)
 driver.find_element_by_name('password').send_keys(YOUR_PASSWORD)
 driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button').click()
 
-time.sleep(5)
+time.sleep(15)
 driver.get(link)
 time.sleep(15)
 
@@ -95,7 +95,7 @@ def letsRunAgain():
             parts = string.split()
             for strx in parts:
                 if(strx == "attendance" or strx == "present" or strx == "enrollment"):
-                    print("\n\n## ATTENDANCE ALERT##\n\n")
+                    print("ATTENDANCE")
                     frequency = 2500
                     duration = 5000 #1000ms = 1sec
                     winsound.Beep(frequency,duration)

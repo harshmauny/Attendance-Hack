@@ -13,7 +13,7 @@ function joinMeet() {
 
     pyshell.on('message', function(message) {
 
-        if (message == "attendance") {
+        if (message == "ATTENDANCE") {
             Notification.requestPermission().then(function(result) {
                 var myNotification = new Notification('Attendance Alert', {
                     body: "Attendance is been taken !!"
