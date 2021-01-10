@@ -38,3 +38,15 @@ It will ask for meeting code, enter it and you're done. Sit back and chill!
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## For UI Version (Electron JS)
+
+You need to first install node
+
+then 
+```
+npm install
+npm start
+```
+
+electron window will open and then enter the meeting code
