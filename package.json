@@ -20,6 +20,6 @@
     "electron": "^13.1.7"
   },
   "dependencies": {
-    "python-shell": "^2.0.3"
+    "python-shell": "^3.0.0"
   }
 }
